@@ -22,5 +22,5 @@ $config['smtp_pass'] = '%p';
 
 $config['default_host'] = '%s';
 
-$config['plugins'] = array('carddav', 'managesieve', 'twofactor_gauthenticator');
+$config['plugins'] = array('managesieve', 'twofactor_gauthenticator');
 if(getenv('ROUNDCUBE_USER_FILE')) $config['plugins'][] = 'password';
